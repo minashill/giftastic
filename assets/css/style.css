@@ -1,0 +1,66 @@
+body {
+    background: url("../images/hiphop.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 80%;
+    font-family: 'Space Mono', monospace;
+    font-weight: bold;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    color: white;
+    font-size: 25px;    
+   -webkit-text-fill-color: red;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+
+}
+
+
+.ratings {
+    color: yellow;
+    font-size: 18px;
+}
+
+h1 {
+    
+    color: red;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    font-family: 'Monoton', cursive;
+    font-size: 125px;
+}
+
+
+.btn-primary {
+    border-radius: 6px;
+    border: #fff 4px solid;
+    line-height: 45px;
+    color: #fff;
+    background-color: transparent;
+}
+
+.btn-large:hover {
+    color: #f1c40f;
+    border: #f1c40f 4px solid;
+}
+
+@media screen and (max-width: 480px) {
+    .movImage {
+        width: 500px;
+        height: 500px;
+    }
+    body {
+        background-color: red;
+    }
+}
+
+.form-control {
+    width: 30%;
+}
+
+#add {
+    font-size: 20px;
+    color: white;
+}
